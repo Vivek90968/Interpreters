@@ -13,9 +13,9 @@ Project Onion is a comprehensive tool designed to crawl, classify, and report on
   - Architectural diagrams and system designs
 # Technology Stack
 - Backend: Django, Python, MySQL
-- Frontend: Next.js, HTML, Tailwind CSS
+- Frontend: Next.js, HTML, Tailwind CSS, SaaS
 - Designs: Figma, Lucidchart
-- Additional: SaaS
+
 # Installation
 Clone the repository and follow the installation steps:
 ```Sh
