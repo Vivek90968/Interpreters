@@ -31,5 +31,4 @@ Start the Next.js frontend:
 Access the dashboard at http://localhost:3000
 # Documentation
 Detailed documentation, including setup instructions, architectural diagrams, and system designs, can be found in the Plans directory.
-# License
-Project Onion is licensed under the MIT License. See the LICENSE file for more information.
+# © Copyright 2024 Interpreters - All rights reserved. 
