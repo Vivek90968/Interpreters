@@ -1,0 +1,34 @@
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  height: calc(100vh - 6rem);
+}
+
+.mainContainer h1{
+  font-size: 2rem;
+}
+.mainContainer h1 span{
+  margin-left: 2px;
+  margin-right:2px;
+  color: #B92BFF;
+}
+
+
+.mainContainer img{
+  height: 300px;
+  width: 300px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .mainContainer h1{
+    font-size: 1.5rem;
+  }
+  .mainContainer img{
+    /* width: 100%; */
+    /* height: 70%; */
+  }
+}
