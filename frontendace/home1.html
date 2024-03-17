@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu for Admin Dashboard | CodingNepal</title>
+    <link rel="stylesheet" href="./static/home1.css" />
+    <script defer src="./static/home1.js"></script>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <a href="#" class="logo">Onion Service</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+
+          <li class="item">
+            <a href="/">Home</a>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span>Dashboard</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Back
+              </div>
+              <li class="item">
+                <a href="#">Keywords</a>
+              </li>
+              <li class="item">
+                <a href="#">URL status</a>
+              </li>
+              <li class="item">
+                <a href="#">Site Activity</a>
+              </li>
+              <li class="item">
+                <a href="#">URL Analysis</a>
+              </li>
+              <li class="item">
+                <a href="#">Content analysis</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+           
+          <li class="item">
+            <a href="#">Forum</a>
+          </li>
+
+          <li class="item">
+            <a href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+      <div class="stats" >
+        <div class="statsCard1">
+          <span>Sites Crawled</span>
+          <span>0</span>
+          <div class="circle">0%</div>
+        </div>
+        <div class="statsCard2">
+          <span>URL ENTERED</span>
+          <span>0</span>
+          <div class="circle">0%</div>
+        </div>
+      </div>
+      <div class="forms">
+        <div class="switcher">
+          <div onclick="toggler()" id="oneSelector" class="optionOne active">Enter URL </div>
+          <div onclick="toggler()" id="twoSelector" class="optionTwo">Enter Keyword</div>
+        </div>
+        <form action="" id="one" class="formOne" >
+          <input placeholder="Enter The URL." type="text" />
+          <span>OR</span>
+          <select name="" id="selectUrl">
+            <option value="Select url from here">Option one</option>
+            <option value="Option two">Option two</option>
+            <option value="Option three">Option three</option>
+          </select>
+          <button type="submit" >Search</button>
+        </form>
+        <form id="two" action="" class="formTwo" >
+          <input type="text" placeholder="Enter The Keyword to search" />
+          <button type="submit" >Search</button>
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

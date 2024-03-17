@@ -1,0 +1,87 @@
+.authFormContainer{
+    height: calc(100vh - 6rem);
+    width: 100%;
+    background-color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    >.form{
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 30%;
+      flex-direction: column;
+      gap: 1rem;
+      >label{
+        font-size: 1.5rem;
+      }
+      >span{
+        font-size: 1rem;
+        color: red;
+        font-weight: lighter;
+        letter-spacing: 1px;
+      }
+      >input{
+        padding: 4px;
+        width: 100%;
+        height: 3rem;
+        background-color: gray;
+        border-radius: 8px;
+        outline: none;
+        font-size: 1rem;
+        color: white;
+        border: none;
+        z-index: 0;
+      }
+      >button{
+        width: 100%;
+        height: 3rem;
+        background-color: #7E4798;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.7rem;
+        outline: none;
+      }
+      button :hover{
+        cursor: pointer;
+      }
+    }
+  }
+  
+  button:hover{
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 1174px) {
+    .authFormContainer > .form {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 50%;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .authFormContainer > .form {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 90%;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .authFormContainer > .form {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
