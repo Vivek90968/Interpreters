@@ -1,0 +1,11 @@
+{% extends "launcher/base.html" %}
+{% block content %}
+    <br><br>
+
+    {% if msg %}
+        <script>alert("{{ msg }}")</script>
+    {% endif %}
+    
+    <h1 class="text-center">Project Onion</h1><br>
+   
+{% endblock content %}
