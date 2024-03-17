@@ -29,7 +29,7 @@ pip install -r requirements.txt
 import nltk
 nltk.download()
 ```
-3. Download YOLOv3 from [here] (https://drive.google.com/drive/folders/1dtBYEX4laG9VyXap15Z6HZm2Kdfxt_hG?usp=sharing)
+3. Download YOLOv3 from [here](https://drive.google.com/drive/folders/1dtBYEX4laG9VyXap15Z6HZm2Kdfxt_hG?usp=sharing) and save its files at \YOLOv3\project_onion_yolo.weights
 
 4. Insert Mongodb driver code in \crawler\utlis.py
 
