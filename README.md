@@ -19,7 +19,7 @@ Project Onion is a comprehensive tool designed to crawl, classify, and report on
 - Designs: Figma, Lucidchart
 
 # Installation
-Clone the repository and follow the installation steps:
+Clone the repository and navigate to code\project_onion directory then follow the installation steps:
 1. Download requirements:
 ``` 
 pip install -r requirements.txt
